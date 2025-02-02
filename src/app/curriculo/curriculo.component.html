@@ -1,0 +1,195 @@
+<div class="container text-center">
+    <button (click)="baixarArquivo()" class="btn btn-primary mb-5 shadow border">Baixar currículo em PDF</button>
+
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">
+            <accordion-group [(isOpen)]="isFormacaoOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Formação</div>
+
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isFormacaoOpen" style="color: white;">></div>
+                        <div *ngIf="isFormacaoOpen" style="color: white;">v</div>
+                    </div>
+                </button>
+
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Análise e Desenvlvimento de sistemas</h2>
+                    <h3 class="text-primary">Uninassau</h3>
+                    <p>2024.1 - 2025.2 (Cursando)</p>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Técnico em Desenvolvimento de Sistemas</h2>
+                    <h3 class="text-primary">ETE Porto Digital</h3>
+                    <p>2020.1 - 2022.2 (Cursando)</p>
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isOutrasFormacoesOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Outras Formações</div>
+
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isOutrasFormacoesOpen" style="color: white;">></div>
+                        <div *ngIf="isOutrasFormacoesOpen" style="color: white;">v</div>
+                    </div>
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Com.Domínio Digital 4.0</h2>
+                    <h3 class="text-primary">Instituto Aliança</h3>
+                    <p style="text-align: left;">2024.2 | 330h</p>
+                    <div class="d-flex flex-wrap">
+                        <ul>
+                            <li>Lógica de programação</li>
+                            <li>Orientação a objetos</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Banco de Dados (SQL)</li>
+                        </ul>
+                        <div>
+                            <ul>
+                                <li>Resiliência Emocional</li>
+                                <li>Autoeficácia para o trabalho</li>
+                                <li>Amabilidade</li>
+                                <li>Abertura para o novo</li>
+                                <li>Autogestão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Do Zero ao Full Stack</h2>
+                    <h3 class="text-primary">Treina Recife</h3>
+                    <p>2025.1 | 132h | Cursando</p>
+                    <ul>
+                        <li>Lógica de programação com Java</li>
+                        <li>Programação orientada a objetos</li>
+                        <li>Frontend (HTML, CSS, Bootstrap e Javascript)</li>
+                        <li>SQL</li>
+                        <li>Java EE - API Rest</li>
+                        <li>React Js</li>
+                    </ul>
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isCertificadosOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Certificados</div>
+
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isCertificadosOpen" style="color: white;">></div>
+                        <div *ngIf="isCertificadosOpen" style="color: white;">v</div>
+                    </div>
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Linguagem de Programação Python</h2>
+                    <h3 class="text-primary">Fundação Bradesco</h3>
+                    <p>2024.1 | 18h</p>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Projetos de Sistemas de TI</h2>
+                    <h3 class="text-primary">Fundação Bradesco</h3>
+                    <p>2024.1 | 15h</p>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Introdução à Programação Orientada a Objetos (POO)</h2>
+                    <h3 class="text-primary">Fundação Bradesco</h3>
+                    <p>2024.1 | 5h</p>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Básico sobre o funcionamento do computador</h2>
+                    <h3 class="text-primary">Ada Tech</h3>
+                    <p>2024.2 | 4h</p>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Git e Versionamento</h2>
+                    <h3 class="text-primary">Ada Tech</h3>
+                    <p>2024.2 | 2h</p>
+                </div>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Lógica de programação com Javascript (Node.JS)</h2>
+                    <h3 class="text-primary">Ada Tech</h3>
+                    <p>2025.1 | 6h</p>
+                </div>
+                <div style="text-align: left;">
+                    <h2 class="mb-0"> NLW Journey - Fullstack</h2>
+                    <h3 class="text-primary">Rocketseat</h3>
+                    <p>2024.2 | 3h</p>
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isHabilidadesOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Habilidades</div>
+
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isHabilidadesOpen" style="color: white;">></div>
+                        <div *ngIf="isHabilidadesOpen" style="color: white;">v</div>
+                    </div>
+                </button>
+                <div class="row" style="text-align: left;">
+                    <div class="col">
+                        <h3>FrontEnd:</h3>
+                        <ul>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>BackEnd:</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Socioemocionais:</h3>
+                        <ul>
+                            <li>Resiliência emocional</li>
+                            <li>Cooperatividade</li>
+                            <li>Abertura ao novo</li>
+                            <li>Autogestão</li>
+                        </ul>
+                    </div>
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isTrabalhosVoluntariosOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Trabalhos voluntários</div>
+
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isTrabalhosVoluntariosOpen" style="color: white;">></div>
+                        <div *ngIf="isTrabalhosVoluntariosOpen" style="color: white;">v</div>
+                    </div>
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Palestra educativa sobre cyberbullying para crianças</h2>
+                    <h3 class="text-primary">Organização de Auxílio Fraterno do Recife (OAF)</h3>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Oficinas de leitura, pintura e jogos para crianças</h2>
+                    <h3 class="text-primary"> Associação Areias Saúde e Cidadania (AASC)</h3>
+                    <p> Líder da oficina de jogos</p>
+                </div>
+    
+            </accordion-group>
+        </accordion>
+    </div>
+    
+</div>

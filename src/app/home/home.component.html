@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <!--Sobre mim-->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>Sobre mim</h2>
+                <img src="../../assets/media/fotodeperfil.jpeg" alt="foto de perfil" width="256" height="256" class="rounded-circle">
+                <p>Sou um estudante de Análise e Desenvolvimento de Sistemas na UNINASSAU, apaixonado por tecnologia e inovação. Tenho um curso técnico em Desenvolvimento de Sistemas e finalizei recentemente a formação profissional “Com.Domínio Digital 4.0”, que visa aprimorar minhas habilidades técnicas em programação e também minhas habilidades interpessoais. Estou sempre buscando novos conhecimentos e desafios para crescer na área de tecnologia.</p>
+            </div>
+        </div>
+        <!--Projetos anteriores-->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>Projeto em destaque</h2>
+                <h4>{{projetoDestaque.nome}}</h4>
+            </div>
+
+            <carousel>
+                <div *ngFor="let imagens of projetoDestaque.imagens">
+                    <slide><img src={{imagens}} alt="slide" style="display: block; width: 100%;"></slide>
+                </div>
+            </carousel>
+
+            <p class="mt-2">{{projetoDestaque.resumo}}</p>
+            <p>Visite a seção de portfólio para saber mais!</p>
+        </div>
+    </div>
+</div>
