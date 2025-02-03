@@ -1,27 +1,73 @@
-# AngularPortfolioWebsite
+# 📌 Portfólio - Caio Escorel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Este repositório contém o código-fonte do meu portfólio, desenvolvido com Angular. O projeto apresenta minha formação, competências, projetos anteriores e certificados.
 
-## Development server
+## 🔧 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- NodeJS
+- Bootstrap
+- TypeScript
 
-## Code scaffolding
+## 🚀 Como Executar o Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 1️⃣ Requisitos
 
-## Build
+- **Editor de Código**: Recomendo o [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+- **Extensões Necessárias:**
+  - [VS Code Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) (opcional, melhora a visualização dos arquivos)
+  - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+  - [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 2️⃣ Clonar o Repositório
 
-## Running unit tests
+```sh
+# Usando o Git
+git clone https://github.com/Caioesc/MeuPortfolioAngular.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Ou baixe o ZIP e extraia os arquivos
+```
 
-## Running end-to-end tests
+### 3️⃣ Abrir o Projeto no VS Code
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+cd MeuPortfolioAngular
+code .
+```
 
-## Further help
+### 4️⃣ Executar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```sh
+cd MeuPortfolioAngular
+ng serve
+
+#Copie o link gerado e abra no navegador.
+```
+
+## 📜 Funcionalidades
+
+- **Apresentação Pessoal**: Informações sobre minha formação e objetivos profissionais.
+- **Competências**: Seção destacando habilidades técnicas (Front-end e Back-end) e socioemocionais.
+- **Projetos**: Cards interativos com imagens e links para repositórios GitHub ou demonstrações ao vivo.
+- **Contato**: Links diretos para GitHub e LinkedIn.
+
+## 🎨 Estilos e Animações
+
+- **Estilo moderno e responsivo**: Layout ajustável para dispositivos móveis e desktops.
+- **Transições suaves**: Animações CSS para melhorar a experiência do usuário.
+
+## 📜 Licença
+
+Este projeto está licenciado sob a *Creative Commons CC0*.
+
+## 📬 Contato
+
+Caso queira entrar em contato, me mande um e-mail ou me adicione no LinkedIn:
+
+📧 **[caioheraclio@gmail.com](mailto:caioheraclio@gmail.com)**
+
+🔗 **[LinkedIn](https://www.linkedin.com/in/caioescorel/)**
+
+🔗 **[GitHub](https://github.com/Caioesc)**
+
+Espero que goste do meu portfólio! ⭐ Se achar útil, não esqueça de dar um **star** no repositório. 😉
