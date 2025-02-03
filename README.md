@@ -40,10 +40,8 @@ code .
 
 ```sh
 cd MeuPortfolioAngular
-ng serve
-
-#Caso ocorra erro de pacotes, execute:
 npm install
+ng serve
 ```
 
 ## 📜 Funcionalidades
