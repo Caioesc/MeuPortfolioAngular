@@ -4,10 +4,11 @@ Este repositório contém o código-fonte do meu portfólio, desenvolvido com An
 
 ## 🔧 Tecnologias Utilizadas
 
-- Angular
-- NodeJS
+- Angular v.15
+- NodeJS v.18.0.10
 - Bootstrap
 - TypeScript
+- Biblioteca ngx bootstrap
 
 ## 🚀 Como Executar o Projeto
 
@@ -41,7 +42,8 @@ code .
 cd MeuPortfolioAngular
 ng serve
 
-#Copie o link gerado e abra no navegador.
+#Caso ocorra erro de pacotes, execute:
+npm install
 ```
 
 ## 📜 Funcionalidades
